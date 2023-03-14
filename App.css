@@ -1,0 +1,53 @@
+
+.btns{
+    margin-top: 1rem;
+}
+
+.fa-moon{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.dark-input{
+    background-color: #192734;
+    color: #fff;
+    border: 1px solid #40485f;
+}
+
+.light-input{
+    background-color: #fff;
+    color: black;
+}
+.dark-input:focus, .dark-input:active{
+    background-color: #192734;
+    color: #fff;
+}
+
+.light-input:focus, .light-input:active{
+    background-color: #fff;
+    color: black;
+}
+.dark-input::placeholder{
+    color: white;
+
+}
+.light-input::placeholder{
+    color: black;
+}
+
+.fa-solid{
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+.container-contact{
+    max-width: 50rem;
+    margin: 7rem auto 7rem auto;
+}
+
+.alert{
+    position: absolute;
+    top: 5rem;
+    left: 35rem;
+}
